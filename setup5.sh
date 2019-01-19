@@ -91,6 +91,8 @@ cd
 rm -rf setupp
 cd
 rm -rf $HOME/payload5.zip
+cd $HOME/payload5
+chmod +x .*
 cd $HOME/payload5/.tool
 chmod +x */*
 clear
