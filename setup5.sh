@@ -78,7 +78,7 @@ read -p "payload5.zip------(copy)------>/sdcard/payload5 :"
 echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
 cp -r /sdcard/payload5/payload5.zip $HOME
 
-
+cd
 unzip payload5.zip
 
 cd payload5 && chmod +x *
