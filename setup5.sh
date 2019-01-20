@@ -76,12 +76,15 @@ mkdir /sdcard/payload5/Encrypt
 clear
 read -p "payload5.zip------(copy)------>/sdcard/payload5 :"
 echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
-cp -r /sdcard/payload5/payload5.zip $HOME
-
 cd
+mkdir payload5
+
+
+cp -r /sdcard/payload5/payload5.zip $HOME/payload5
+cd payload5
 unzip payload5.zip
 
-cd payload5 && chmod +x *
+cd $HOME/payload5 && chmod +x *
 cd
 cp $HOME/payload5/payload.sh $HOME/../usr/bin/payload.sh
 cp $HOME/payload5/payload.sh $HOME/../usr/bin/payload
