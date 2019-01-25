@@ -80,7 +80,7 @@ cd
 mkdir payload5
 
 
-cp -r /sdcard/payload5/payload5.zip $HOME/payload5
+mv -r /sdcard/payload5/payload5.zip $HOME/payload5
 cd payload5
 unzip payload5.zip
 
