@@ -6,6 +6,8 @@ clear
 termux-setup-storage
 rm -rf $HOME/payload5.zip
 rm -rf $HOME/payload5
+rm -rf $HOME/payload6
+rm -rf $HOME/payload6.zip
 rm -rf $HOME/../usr/bin/payload.sh
 rm -rf $HOME/../usr/bin/payload
 rm -rf $HOME/../usr/bin/setup5.sh
@@ -71,32 +73,33 @@ clear
 
 echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
 
-mkdir /sdcard/payload5
-mkdir /sdcard/payload5/Encrypt
+mkdir /sdcard/payload6
+mkdir /sdcard/payload6/Encrypt
 clear
-read -p "payload5.zip------(copy)------>/sdcard/payload5 :"
+read -p "payload6.zip------(copy)------>/sdcard/payload6 :"
 echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
 cd
-mkdir payload5
+mkdir payload6
 
 
-mv /sdcard/payload5/payload5.zip $HOME/payload5
-cd payload5
-unzip payload5.zip
+mv /sdcard/payload6/payload6.zip $HOME/payload6
+cd payload6
+unzip payload6.zip
 
 cd $HOME/payload5 && chmod +x *
 cd
-cp $HOME/payload5/payload.sh $HOME/../usr/bin/payload.sh
-cp $HOME/payload5/payload.sh $HOME/../usr/bin/payload
-#cp $HOME/payload5/.setup5.sh $HOME/../usr/bin/setup5.sh
+cp $HOME/payload6/payload.sh $HOME/../usr/bin/payload6
+cp $HOME/payload6/payload.sh $HOME/../usr/bin/payload.sh
+cp $HOME/payload6/payload.sh $HOME/../usr/bin/payload
+#cp $HOME/payload6/.setup5.sh $HOME/../usr/bin/setup5.sh
 chmod +x $HOME/../usr/bin/setup5.sh
 cd
 rm -rf setupp
 cd
-rm -rf $HOME/payload5.zip
-cd $HOME/payload5
+rm -rf $HOME/payload6.zip
+cd $HOME/payload6
 chmod +x .*
-cd $HOME/payload5/.tool
+cd $HOME/payload6/.tool
 chmod +x */*
 clear
 
