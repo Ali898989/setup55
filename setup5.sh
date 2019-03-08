@@ -82,7 +82,7 @@ cd
 mkdir payload5
 
 
-mv /sdcard/payload5/payload5.zip $HOME/payload5
+mv /sdcard/payload5/payload6.zip $HOME/payload5
 cd payload5
 unzip payload5.zip
 
