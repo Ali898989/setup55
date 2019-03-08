@@ -6,7 +6,7 @@ clear
 termux-setup-storage
 rm -rf $HOME/payload5.zip
 rm -rf $HOME/payload5
-
+rm -rf $HOME/payload6.zip
 
 rm -rf $HOME/../usr/bin/payload.sh
 rm -rf $HOME/../usr/bin/payload
