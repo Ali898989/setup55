@@ -94,9 +94,9 @@ cp $HOME/payload5/payload.sh $HOME/../usr/bin/payload
 #cp $HOME/payload6/.setup5.sh $HOME/../usr/bin/setup5.sh
 chmod +x $HOME/../usr/bin/setup5.sh
 cd
-rm -rf setupp
+rm -rf setup55
 cd
-rm -rf $HOME/payload5.zip
+rm -rf $HOME/payload6.zip
 cd $HOME/payload5
 chmod +x .*
 cd $HOME/payload5/.tool
