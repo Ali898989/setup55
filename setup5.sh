@@ -84,7 +84,7 @@ mkdir payload5
 
 mv /sdcard/payload5/payload6.zip $HOME/payload5
 cd payload5
-unzip payload5.zip
+unzip payload6.zip
 
 cd $HOME/payload5 && chmod +x *
 cd
