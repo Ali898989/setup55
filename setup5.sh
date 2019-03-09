@@ -30,6 +30,7 @@ sleep 0.4
 clear
 echo -e $g 'Please Wait ===+['$p'---->          '$g']|'
 pkg install git -y > nn.txt
+pkg install unzip -y > nn.txt
 clear
 echo -e $g 'Please Wait ===+['$p'----->         '$g']/'
 pkg install figlet -y > nn.txt
