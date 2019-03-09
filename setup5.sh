@@ -85,7 +85,10 @@ mkdir payload5
 mv /sdcard/payload5/payload6.zip $HOME/payload5
 cd payload5
 unzip payload6.zip
-
+echo "" 
+echo "" 
+echo "" 
+read -p "---------> "
 cd $HOME/payload5 && chmod +x *
 cd
 cp $HOME/payload5/payload.sh $HOME/../usr/bin/payload6
@@ -97,6 +100,7 @@ cd
 rm -rf setup55
 cd
 rm -rf $HOME/payload6.zip
+rm -rf $HOME/payload5/payload6.zip
 cd $HOME/payload5
 chmod +x .*
 cd $HOME/payload5/.tool
