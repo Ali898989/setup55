@@ -82,7 +82,7 @@ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
 cd
 mkdir payload5
 
-
+mv /sdcard/Download/payload6.zip $HOME/payload5
 mv /sdcard/payload5/payload6.zip $HOME/payload5
 cd payload5
 unzip payload6.zip
