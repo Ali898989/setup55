@@ -2,7 +2,7 @@ c='\033[1;36m'
 g='\033[1;32m'
 p='\033[1;35m'
 cd
-clear
+#clear
 termux-setup-storage
 rm -rf $HOME/payload5.zip
 rm -rf $HOME/payload5
