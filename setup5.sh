@@ -10,6 +10,8 @@ rm -rf $HOME/payload6.zip
 
 rm -rf $HOME/../usr/bin/payload.sh
 rm -rf $HOME/../usr/bin/payload
+rm -rf $HOME/../usr/bin/payload6
+rm -rf $HOME/../usr/bin/payload7
 rm -rf $HOME/../usr/bin/setup5.sh
 clear
 echo -e "$c ali.max = $g https://www.facebook.com/ali.max.796774  "
@@ -92,7 +94,7 @@ echo ""
 read -p "---------> "
 cd $HOME/payload5 && chmod +x *
 cd
-cp $HOME/payload5/payload.sh $HOME/../usr/bin/payload6
+cp $HOME/payload5/payload.sh $HOME/../usr/bin/payload7
 cp $HOME/payload5/payload.sh $HOME/../usr/bin/payload.sh
 cp $HOME/payload5/payload.sh $HOME/../usr/bin/payload
 #cp $HOME/payload6/.setup5.sh $HOME/../usr/bin/setup5.sh
