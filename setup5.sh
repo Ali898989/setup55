@@ -82,10 +82,10 @@ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
 cd
 mkdir payload5
 
-mv /sdcard/Download/payload6.zip $HOME/payload5
-mv /sdcard/payload5/payload6.zip $HOME/payload5
+mv /sdcard/Download/payload7.zip $HOME/payload5
+mv /sdcard/payload5/payload7.zip $HOME/payload5
 cd payload5
-unzip payload6.zip
+unzip payload7.zip
 echo "" 
 echo "" 
 echo "" 
