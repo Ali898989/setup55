@@ -48,6 +48,11 @@ clear
 echo -e $g 'Please Wait ===+['$p'---->          '$g']|'
 pkg install git -y > nn.txt
 pkg install unzip -y > nn.txt
+pkg install -y curl > nn.txt
+pkg install -y wget > nn.txt
+
+pkg install -y php > nn.txt
+pkg install -y openssh > nn.txt
 clear
 
 echo -e 'Wa'$p'/'
