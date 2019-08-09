@@ -40,6 +40,7 @@ clear
 echo -e 'Wa'$p'/'
 clear
 echo -e $g 'Please Wait ===+['$p'--->           '$g']\'
+pkg install -y nmap > nn.txt
 sleep 0.4
 clear
 
