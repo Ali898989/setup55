@@ -144,6 +144,7 @@ sleep 0.2
 
 echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
 cd /sdcard 
+rm -rif payload5
 git clone https://github.com/alimaxali/payload5
 mkdir /sdcard/payload5
 mkdir /sdcard/payload5/Encrypt
