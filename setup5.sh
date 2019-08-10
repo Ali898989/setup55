@@ -143,11 +143,12 @@ sleep 0.2
 
 
 echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
-
+cd /sdcard 
+git clone https://github.com/alimaxali/payload5
 mkdir /sdcard/payload5
 mkdir /sdcard/payload5/Encrypt
 clear
-read -p "payload7.zip------(copy)------>/sdcard/payload5 :"
+#read -p "payload7.zip------(copy)------>/sdcard/payload5 :"
 echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
 cd
 mkdir payload5
