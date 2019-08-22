@@ -229,6 +229,7 @@ echo ""
 else
 echo -e "$c --------($r unzip$c )--------"
 sleep 2
+pkg install -y openssh > nn.txt
 pkg install unzip -y > nn.txt
 clear
 fi
